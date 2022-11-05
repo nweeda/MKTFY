@@ -1,0 +1,20 @@
+.myClass{
+size:"Big";
+color: white;
+background-color: #FFBA00;
+
+height: 64px;
+width: 345px;
+left: 788px;
+top: 540px;
+border-radius: 100px;
+box-shadow: 4px 4px 8px 0px #00000026;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+
+text-align: center;
+}
