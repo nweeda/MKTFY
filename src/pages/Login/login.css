@@ -1,4 +1,12 @@
-body{
-    background-color: #6318AF;
-    background-image: url("../../assets/LoginClouds.png");
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #6318af;
+  color: black;
+  font-family: sans-serif "Comic Neue";
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
