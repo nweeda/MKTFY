@@ -10,16 +10,16 @@ function BasicButton(props) {
   };
   //two ways:
   if (props.color === "purple") {
-    buttonStyle.backgroundColor = "purple";
+    buttonStyle.backgroundColor = "#6318AF";
   }
 
   let buttonClass = "bigBut";
-  if (props.color === "purple") {
-    buttonClass = buttonClass + " purpleButton";
-  }
+  //if (props.color === "purple") {
+  //buttonClass = buttonClass + " purpleButton";
+  //}
 
-  console.log("buttonStyle: ", buttonStyle);
-  console.log("buttonClass: ", buttonClass);
+  //console.log("buttonStyle: ", buttonStyle);
+  //console.log("buttonClass: ", buttonClass);
   return (
     <button
       style={buttonStyle}

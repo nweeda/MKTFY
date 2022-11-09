@@ -15,6 +15,7 @@ function Login() {
         />
         <BasicButton style={{ display: "flex" }}>Login</BasicButton>
         <BasicButton
+          color="purple"
           // styles={{ marginTop: "18px" }}
           classNames="marginTopBut"
         >
