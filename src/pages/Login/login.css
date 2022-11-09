@@ -28,3 +28,17 @@
   background-image: url("../../assets/1.png");
   min-height: 100vh;
 }
+
+.findMore {
+  color: white;
+  font-family: sans-serif "Comic Neue", cursive;
+  font-weight: 700;
+  size: 16px;
+}
+
+.visitSite {
+  color: #ffba00;
+  font-family: sans-serif "Comic Neue", cursive;
+  font-weight: 700;
+  size: 16px;
+}

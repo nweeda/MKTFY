@@ -21,7 +21,29 @@ function Login() {
           Create Account
         </BasicButton>
       </div>
-      <p>Find out more about us! Visit our website!</p>
+      <span
+        style={{
+          color: "white",
+          fontFamily: 'sans-serif "Comic Neue", cursive',
+          fontWeight: "700",
+          size: "16px",
+        }}
+      >
+        Find out more about us!
+      </span>
+      <a href="http://google.com">
+        <span
+          style={{
+            color: "#FFBA00",
+            fontFamily: 'sans-serif "Comic Neue", cursive',
+            fontWeight: "700",
+            size: "16px",
+          }}
+        >
+          {" "}
+          Visit our website
+        </span>
+      </a>
     </div>
   );
 }
