@@ -1,4 +1,4 @@
-.myClass {
+.bigBut {
   size: "Big";
   color: white;
   background-color: #ffba00;
@@ -18,4 +18,8 @@
 
   text-align: center;
   gap: 10px;
+}
+
+.marginTopBut {
+  margin-top: 18px;
 }
