@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import BasicButton from "../../components/buttons/BasicButton";
 import "./login.css";
 import Logo from "../../assets/MKTFYlogo.png";
-import Page from "../muiTesting/grid.js";
+import LoginModal from "../../components/modals/LoginModal";
+//import Page from "../muiTesting/grid.js";
 
 function Login() {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className="bg-img">
       <div className="login-container">
@@ -13,7 +16,16 @@ function Login() {
           style={{ width: "235px", height: "88px", marginBottom: "29px" }}
           alt="Logo"
         />
-        <BasicButton style={{ display: "flex" }}>Login</BasicButton>
+        <BasicButton
+          style={{ display: "flex" }}
+          className="openModalBtn"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
+          Login
+        </BasicButton>
+        {openModal && <LoginModal />}
         <BasicButton
           color="purple"
           // styles={{ marginTop: "18px" }}

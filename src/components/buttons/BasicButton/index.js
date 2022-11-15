@@ -1,4 +1,3 @@
-import Link from "antd/lib/typography/Link";
 import React from "react";
 import "./basicButton.css";
 
@@ -23,7 +22,11 @@ function BasicButton(props) {
   return (
     <button
       style={buttonStyle}
-      className={buttonClass + (props.classNames ? " " + props.classNames : "")}
+      className={buttonClass + (props.classNames ? " " + props.classNames : "")}   
+      onClick={() => {
+        if (props.onClick){props.onClick()}
+      }}
+      //if we receive property called on click execute it as a function
     >
       {props.children}
     </button>
